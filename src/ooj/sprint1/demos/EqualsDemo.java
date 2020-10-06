@@ -9,10 +9,9 @@ public class EqualsDemo {
         Huvud h3 = new Huvud(3);
         
         Object o = h3;
-        String s = "fdsfds";
         
-//        System.out.println(h1.equals(h2));
-//        System.out.println(h1.equals(h3));
+        System.out.println(h1.equals(h2));
+        System.out.println(h1.equals(h3));
 
         System.out.println(h1.equals(o));
     }
@@ -32,17 +31,17 @@ class Huvud{
         }
         return false;
     }
-    
-//    public boolean equals(Object o){
-//        if (o == null || o.getClass() != getClass()){
-//            return false;
-//        }
-//        else{
-//            Huvud h = (Huvud) o;
-//            if (this.antalÖgon == h.antalÖgon){
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
+
+    public boolean equals(Object o){
+        if (o == null || o.getClass() != getClass()){
+            return false;
+        }
+        else{
+            Huvud h = (Huvud) o;
+            if (this.antalÖgon == h.antalÖgon){
+                return true;
+            }
+        }
+        return false;
+    }
 }

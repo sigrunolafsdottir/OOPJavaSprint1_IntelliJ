@@ -1,6 +1,6 @@
 package ooj.sprint1.övningar.övning2;
 
-public class Bil extends Fordon implements Printable, IHjulburen{
+public class Bil extends Fordon implements  IHjulburen{
     private int motoreffekt;
     int antalHjul = 4;
     
@@ -12,7 +12,8 @@ public class Bil extends Fordon implements Printable, IHjulburen{
     public void växla(){}
     
     public void printMe(){
-        System.out.println("Bil med hastighet " +getHastighet()+ " km/h, vikt " + getVikt() +" kg och motoreffekt: " + motoreffekt);
+        System.out.println("Bil med hastighet " +getHastighet()+ " km/h, vikt " + getVikt()
+                +" kg och motoreffekt: " + motoreffekt);
     }
     
     public int getAntalHjul(){

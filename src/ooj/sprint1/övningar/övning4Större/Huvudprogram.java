@@ -67,7 +67,7 @@ public class Huvudprogram {
        
         
         //SÅ länge vi använder samma objekt hänger datat ihop, även om klasserna inte "har" varandra
-        Anna.setName("Iris");
+      //  Anna.setName("Iris");
         lektionsdeltagande.forEach(
                 ld -> System.out.println(ld.getStudent().getName()));
         

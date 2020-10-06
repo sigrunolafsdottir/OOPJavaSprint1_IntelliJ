@@ -10,8 +10,8 @@ public class ÖvningsuppgiftEnum {
                         + r.getDigit() +" "+r.getString());
         }
         
-        RomerskaSiffror r2 = RomerskaSiffror.L.M.D;
+        //RomerskaSiffror r2 = RomerskaSiffror.L.M.D;
         
-        Month m = Month.MARCH;
+        //Month m = Month.MARCH;
     }
 }

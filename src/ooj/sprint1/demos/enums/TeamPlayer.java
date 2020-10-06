@@ -2,12 +2,15 @@ package ooj.sprint1.demos.enums;
 
 public class TeamPlayer {
     
-    public enum Team {BLUE("blåa laget"), 
-            RED("röda laget"), 
+    public enum Team {BLUE("blåa laget"),
+            RED("röda laget"),
             YELLOW("gula laget");
+
         public final String  teamName;
+       // public final int  luckyNumber;
+
         Team (String name)  {
-            teamName = name;
+           teamName = name;
         }
     }
     
@@ -29,11 +32,8 @@ public class TeamPlayer {
 }
 
 
-/*//varje konstant associerad till ett värdet
-
 
 
 
 //Kort definition, bara konstanterna
-    public enum Team {BLUE, RED, YELLOW};
-    */
+//    public enum Team {BLUE, RED, YELLOW};

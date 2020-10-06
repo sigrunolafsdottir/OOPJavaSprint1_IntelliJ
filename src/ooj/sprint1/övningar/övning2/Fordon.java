@@ -1,6 +1,6 @@
 package ooj.sprint1.övningar.övning2;
 
-abstract class Fordon{
+abstract class Fordon implements Printable{
     
     private int hastighet;
     private int vikt;
@@ -26,5 +26,5 @@ abstract class Fordon{
  
     //Nödvändig för att det ska gå att skriva 
     //ut en subklass via Fordon
-    abstract public void printMe();
+    //abstract public void printMe();
 }

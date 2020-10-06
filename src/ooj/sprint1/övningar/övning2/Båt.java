@@ -1,6 +1,6 @@
 package ooj.sprint1.övningar.övning2;
 
-public class Båt extends Fordon implements Printable{
+public class Båt extends Fordon {
     private int dödvikt;
     
     public Båt(int hastighet, int vikt, int dödvikt) {

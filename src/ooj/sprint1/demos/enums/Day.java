@@ -19,27 +19,28 @@ public class Day{
         
         Day day1 = new Day(Weekday.MONDAY);
         Day day2 = new Day(Weekday.TUESDAY);
-        
-//        System.out.println(day1.dayName);
-        
-//        System.out.println(Weekday.THURSDAY);
+
+        System.out.println(day1.dayName);
+        System.out.println(day2.dayName);
+/*
+        System.out.println(Weekday.THURSDAY);
         Weekday w = Weekday.FRIDAY;
-//        System.out.println(w.name());
-//        System.out.println(w.toString());
-//        System.out.println(w.ordinal());
-//        
-//        Weekday w2 = 
-//            Enum.valueOf(Weekday.class, "SATURDAY") ;
-//        System.out.println(w2);
+        System.out.println(w.name());
+        System.out.println(w.toString());
+        System.out.println(w.ordinal());
+
+        Weekday w2 =
+            Enum.valueOf(Weekday.class, "SATURDAY") ;
+        System.out.println(w2);
 
 //skapar en array med alla veckodagarna
         Weekday[] weekdays = Weekday.values();
         Weekday test = Weekday.values()[2];
         System.out.println(test);
-//        for (Weekday w3: weekdays){
-//            System.out.println(w3);
-//        }
-        
+        for (Weekday w3: weekdays){
+            System.out.println(w3);
+        }
+        */
     }
     
 }

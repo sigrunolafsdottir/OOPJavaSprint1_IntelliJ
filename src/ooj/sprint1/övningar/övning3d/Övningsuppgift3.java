@@ -32,7 +32,7 @@ public class Övningsuppgift3 {
         allaDeltagare.add(d4);
         allaDeltagare.add(d5);
         
-        printKurs(OOPJava, allaDeltagare);
+        //printKurs(OOPJava, allaDeltagare);
         System.out.println("");
         printStudent(Pelle, allaDeltagare);
     }

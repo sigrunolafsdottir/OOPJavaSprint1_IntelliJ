@@ -17,12 +17,12 @@ public class TeamPlayerDemo
         allPlayers.add(Bosse);
 
         //skriver ut enum-konstantvärdet
-//        for (TeamPlayer player: allPlayers){
-//            System.out.println(player.name +" in team "
-//                    + player.getTeam()
-//                    + " " +player.getTeam().teamName );
-//        }
-        //itererar genom alla teams värden
+        for (TeamPlayer player: allPlayers){
+            System.out.println(player.name +" in team "
+                    + player.getTeam()
+                    + " " +player.getTeam().teamName );
+        }
+       //itererar genom alla teams värden
         for (Team team : Team.values()){
             System.out.println(team.name()+" "
                     +team.toString()+" "
@@ -30,9 +30,15 @@ public class TeamPlayerDemo
         }
 
         //Vi kommer åt Team inuti TeamPlayer-klassen för att Team är public
-        //Team t = Team.BLUE;
+        Team t = Team.RED;
+        //och vi kan komma åt alla Teams-värden inifrån en av Teams-konstanterna
+        Team t2 = Team.BLUE.YELLOW.RED;
+
+
+
+
     }
-    
+
 }
 
 

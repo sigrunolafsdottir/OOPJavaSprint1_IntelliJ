@@ -9,8 +9,9 @@ public class Teacher extends Person implements IPartyAnimal{
     public String getFavoriteSnack() {
         return "Kale chips";
     }
-    
-    public String getFavoriteDrink() {
-        return "Wine";
+
+
+    public String getFavouriteDrink() {
+        return "Green tea";
     }
 }

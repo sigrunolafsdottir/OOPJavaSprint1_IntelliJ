@@ -1,6 +1,6 @@
 package ooj.sprint1.övningar.övning2;
 
-public class Cykel extends Fordon implements Printable, IHjulburen{
+public class Cykel extends Fordon implements  IHjulburen{
     private int antalVäxlar;
     private int antalHjul = 2;
     

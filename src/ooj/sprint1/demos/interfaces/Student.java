@@ -9,12 +9,12 @@ public class Student extends Person implements IPartyAnimal{
         this.kurs = kurs;
     }
     
-    public String getFavoriteSnack() {
+     public String getFavoriteSnack() {
         return "Popcorn";
     }
     
-//    @Override
-//    public String getFavouriteDrink() {
-//        return "Water";
-//    }
+ /*   @Override
+    public String getFavouriteDrink() {
+        return "Water";
+    }*/
 }
