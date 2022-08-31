@@ -1,4 +1,4 @@
-package ooj.sprint1.övningar.övning1;
+package ooj.sprint1.övningar.övning1a;
 
 //Ett avskräckande exempel på hur kod kunde se ut innan vi började med objektorientering 
 //Tänk inte ens tanken på att göra såhär!

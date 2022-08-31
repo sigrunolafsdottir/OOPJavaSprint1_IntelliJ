@@ -1,4 +1,4 @@
-package ooj.sprint1.övningar.övning1;
+package ooj.sprint1.övningar.övning1b;
 
 public class Bil {
     protected String registreringsnummer;

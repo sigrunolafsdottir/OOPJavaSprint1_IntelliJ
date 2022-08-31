@@ -1,6 +1,6 @@
-package ooj.sprint1.övningar.övning1;
+package ooj.sprint1.övningar.övning1b;
 
-public class BilDrama {
+public class Huvudprogram {
     private static void printBil(Bil bil){
         if (bil.getBilägare() == null){
             System.out.println("Bilen med regNummer" + bil.getRegNummer() + " har ingen ägare");
