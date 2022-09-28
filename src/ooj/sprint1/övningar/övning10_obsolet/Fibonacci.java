@@ -1,4 +1,4 @@
-package ooj.sprint1.övningar.övning10;
+package ooj.sprint1.övningar.övning10_obsolet;
 
 //Vi skickar in ett index och får veta vilket tal som motsvarar det indexet
 //indexeringen börjar på noll

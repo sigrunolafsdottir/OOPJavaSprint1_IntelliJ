@@ -1,4 +1,4 @@
-package ooj.sprint1.övningar.övning10;
+package ooj.sprint1.övningar.övning10_obsolet;
 
 public class Ränta {
     

@@ -1,4 +1,4 @@
-package ooj.sprint1.demos;
+package ooj.sprint1.livedemoJAVA22_27sept.polymorfismPepparkaka;
 
 class Godsak {
     int kaloriinehåll;
