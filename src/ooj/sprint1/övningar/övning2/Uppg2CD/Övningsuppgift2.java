@@ -1,6 +1,6 @@
 package ooj.sprint1.övningar.övning2.Uppg2CD;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Övningsuppgift2 {
@@ -14,7 +14,7 @@ public class Övningsuppgift2 {
         whatever.printMe();
     }
 
-    public void printAntalHjul(IHjulburen hjulburen) {
+    public void printAntalHjul(Hjulburen hjulburen) {
         System.out.println("Antal hjul " + hjulburen.getAntalHjul());
     }
 
@@ -33,25 +33,25 @@ public class Övningsuppgift2 {
 
         System.out.println();
 
-        //tillhör Uppgift 2e
+
         printViaInterface(bil);
         printViaInterface(båt);
         printViaInterface(tåg);
         printViaInterface(cykel);
 
-        IHjulburen bil2 = new Bil(300, 1500, 24);
-        IHjulburen cykel2 = new Cykel(30, 15, 24);
+        System.out.println();
+
+        Hjulburen bil2 = new Bil(300, 1500, 24);
+        Hjulburen cykel2 = new Cykel(30, 15, 24);
         Printable p = new Cykel(45, 12, 78);
 
         printAntalHjul(bil);
         printAntalHjul(cykel2);
+        printAntalHjul(cykel);
 
-        List<Printable> hlist = new ArrayList<>();
-        hlist.add(tåg);
-        hlist.add(båt);
-        hlist.add(bil);
-        hlist.add(cykel);
-        hlist.add(p);
+        System.out.println();
+
+        List<Printable> hlist = Arrays.asList(tåg, båt, bil, cykel, p);
 
         for (Printable h : hlist) {
             h.printMe();

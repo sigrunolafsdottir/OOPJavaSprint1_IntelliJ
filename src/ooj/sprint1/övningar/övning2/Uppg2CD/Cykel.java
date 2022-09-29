@@ -1,6 +1,6 @@
 package ooj.sprint1.övningar.övning2.Uppg2CD;
 
-public class Cykel extends Fordon implements Printable, IHjulburen {
+public class Cykel extends Fordon implements Printable, Hjulburen {
     private int antalVäxlar;
     private int antalHjul = 2;
 
@@ -19,7 +19,7 @@ public class Cykel extends Fordon implements Printable, IHjulburen {
                 + antalVäxlar);
     }
 
-    public int getAntalHjul() {
+    /*public int getAntalHjul() {
         return antalHjul;
-    }
+    }*/
 }

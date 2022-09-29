@@ -2,6 +2,7 @@ package ooj.sprint1.övningar.övning2.Uppg2B;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Huvudprogram {
@@ -28,12 +29,9 @@ public class Huvudprogram {
 
         System.out.println();
 
-        List<Fordon> lista = new ArrayList<>();
-        lista.add(tåg);
-        lista.add(bil);
-        lista.add(båt);
-        lista.add(cykel);
-        lista.add(f);
+        List<Fordon> lista = Arrays.asList(tåg, bil, cykel, båt, f);
+
+
 
         for (Fordon ford : lista) {
             ford.printMe();

@@ -1,6 +1,6 @@
 package ooj.sprint1.övningar.övning2.Uppg2CD;
 
-public class Bil extends Fordon implements Printable, IHjulburen {
+public class Bil extends Fordon implements Printable, Hjulburen {
     private int motoreffekt;
     int antalHjul = 4;
 

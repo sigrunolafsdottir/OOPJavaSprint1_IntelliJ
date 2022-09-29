@@ -1,6 +1,6 @@
 package ooj.sprint1.livedemoJAVA22_27sept.polymorfismPepparkaka;
 
-class Godsak {
+abstract class Godsak {
     int kaloriinehåll;
     public Godsak(int k){
         kaloriinehåll = k;
@@ -10,6 +10,7 @@ class Godsak {
     public void printMe(){
         System.out.println("jag är en godsak");
     }
+    abstract void print2();
 }
 
 class Pepparkaka extends Godsak{
@@ -25,6 +26,10 @@ class Pepparkaka extends Godsak{
 
     public void printMe(){
         System.out.println("jag är en pepparkaka");
+    }
+
+    public void print2(){
+        System.out.println("jag är en pepparkaka 2");
     }
 }
 
