@@ -1,6 +1,8 @@
 package ooj.sprint1.övningar.övning2.Uppg2B;
 
 
+import ooj.sprint1.övningar.övning2.Uppg2CD.Hjulburen;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -17,8 +19,11 @@ public class Huvudprogram {
         Bil bil = new Bil(200, 1000, 70);
         Båt båt = new Båt(50, 300, 50);
         Cykel cykel = new Cykel(20, 5, 10);
+        String s = "hej";
+
 
         Fordon f = new Cykel(15, 7, 3);
+        //Fordon f2 = new Fordon(23, 6, 4);
 
         printFordon(bil);
         printFordon(båt);

@@ -25,6 +25,10 @@ public class Övningsuppgift2 {
         Cykel cykel = new Cykel(20, 5, 10);
         Fordon f = new Cykel(15, 7, 3);
 
+
+        int test = Hjulburen.getAntalHjulFrInterface;
+
+
         printFordon(bil);
         printFordon(båt);
         printFordon(tåg);

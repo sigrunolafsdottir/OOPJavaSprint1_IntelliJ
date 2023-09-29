@@ -4,6 +4,8 @@ public class Cykel extends Fordon implements Printable, Hjulburen {
     private int antalVäxlar;
     private int antalHjul = 2;
 
+    int getAntalHjulFrInterface = 2;
+
     public Cykel(int hastighet, int vikt, int antalVäxlar) {
         super(hastighet, vikt);
         this.antalVäxlar = antalVäxlar;
