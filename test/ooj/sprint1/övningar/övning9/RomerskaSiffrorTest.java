@@ -9,13 +9,13 @@ class RomerskaSiffrorTest {
 
     @Test
     void getDigit() {
-        assert(RomerskaSiffror.V.getDigit().intValue() == 5);
-        assert(RomerskaSiffror.X.getDigit().intValue() == 10);
-        assert(RomerskaSiffror.C.getDigit().intValue() == 100);
-        assert(RomerskaSiffror.I.getDigit().intValue() == 1);
-        assert(RomerskaSiffror.L.getDigit().intValue() == 50);
-        assert(RomerskaSiffror.D.getDigit().intValue() == 500);
-        assert(RomerskaSiffror.M.getDigit().intValue() == 1000);
+        assert(RomerskaSiffror.V.getDigit() == 5);
+        assert(RomerskaSiffror.X.getDigit() == 10);
+        assert(RomerskaSiffror.C.getDigit() == 100);
+        assert(RomerskaSiffror.I.getDigit() == 1);
+        assert(RomerskaSiffror.L.getDigit() == 50);
+        assert(RomerskaSiffror.D.getDigit() == 500);
+        assert(RomerskaSiffror.M.getDigit() == 1000);
     }
 
     @Test
