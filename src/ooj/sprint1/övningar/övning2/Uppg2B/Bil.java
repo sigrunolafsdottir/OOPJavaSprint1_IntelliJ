@@ -3,7 +3,7 @@ package ooj.sprint1.övningar.övning2.Uppg2B;
 
 public class Bil extends Fordon {
     private int motoreffekt;
-    int antalHjul = 4;
+    int antalHjul = 4;   //ignorera
 
     public Bil(int hastighet, int vikt, int motoreffekt) {
         super(hastighet, vikt);

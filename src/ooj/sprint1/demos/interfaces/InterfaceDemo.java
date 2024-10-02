@@ -12,17 +12,19 @@ public class InterfaceDemo {
         Teacher t = new Teacher("Sigrun");
         System.out.println(t.getName()+" "+t.getFavoriteSnack()
                 + " " + t.getFavouriteDrink());
-        
+
         IPartyAnimal m = new Student ("Sixten", "JavaOO");
         System.out.println(m.getFavoriteSnack()+" "
-                +m.getFavouriteDrink());
+                +m.getFavouriteDrink()+ " "+m.i);
 //        
-        IPartyAnimal t2 = t;
-        System.out.println(t2.getFavoriteSnack()+" "+t2.getFavouriteDrink());
+     //   IPartyAnimal t2 = t;
+      //  System.out.println(t2.getFavoriteSnack()+" "+t2.getFavouriteDrink());
 //        
 
         //Varför funkar inte detta?
         //System.out.println(m.getName());
+
+        Person t3 = new Student("Sigrun", "OOPJ");
         
 
     }

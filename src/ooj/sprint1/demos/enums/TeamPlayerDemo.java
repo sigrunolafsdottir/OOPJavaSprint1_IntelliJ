@@ -22,6 +22,7 @@ public class TeamPlayerDemo
                     + player.getTeam()
                     + " " +player.getTeam().teamName );
         }
+        System.out.println();
        //itererar genom alla teams värden
         for (Team team : Team.values()){
             System.out.println(team.name()+" "

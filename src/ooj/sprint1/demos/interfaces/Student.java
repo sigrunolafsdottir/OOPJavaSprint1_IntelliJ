@@ -1,6 +1,6 @@
 package ooj.sprint1.demos.interfaces;
 
-public class Student extends Person implements IPartyAnimal{
+public class Student extends Person  {
     
     private String kurs;
     
@@ -8,13 +8,15 @@ public class Student extends Person implements IPartyAnimal{
         super(namn);
         this.kurs = kurs;
     }
-    
+
      public String getFavoriteSnack() {
         return "Popcorn";
     }
-    
- /*   @Override
+
+    @Override
     public String getFavouriteDrink() {
         return "Water";
-    }*/
+    }
+
+
 }

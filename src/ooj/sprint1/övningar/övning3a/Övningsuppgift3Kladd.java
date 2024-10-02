@@ -2,6 +2,9 @@ package ooj.sprint1.övningar.övning3a;
 
 
 //Omskriven för att få lite bättre testbarhet
+//variabler är protected för att vara tillgängliga på test-sidan
+//vi skriver inte ut saker i konstruktorn, utan bygger bara upp datat
+//de  olika strängarna vi skriver ut är utbrutna till egna metoder för bättre testbarhet av det som skrivs ut
 
 public class Övningsuppgift3Kladd {
 

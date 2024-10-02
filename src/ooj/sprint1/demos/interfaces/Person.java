@@ -1,6 +1,6 @@
 package ooj.sprint1.demos.interfaces;
 
-public abstract class Person {
+public abstract class Person implements IPartyAnimal {
     
     private String name;
     
@@ -14,5 +14,9 @@ public abstract class Person {
     
     public void setName(String newName){
         name = newName;
+    }
+
+    public String getFavoriteSnack() {
+        return "Dillchips";
     }
 }

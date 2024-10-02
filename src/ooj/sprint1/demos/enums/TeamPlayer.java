@@ -1,16 +1,18 @@
 package ooj.sprint1.demos.enums;
 
+//random comment
 public class TeamPlayer {
     
-    public enum Team {BLUE("blåa laget"),
-            RED("röda laget"),
-            YELLOW("gula laget");
+    public enum Team {BLUE("blåa laget", 4),
+            RED("röda laget", 5),
+            YELLOW("gula laget", 7);
 
         public final String  teamName;
-       // public final int  luckyNumber;
+        public final int  luckyNumber;
 
-        Team (String name)  {
-           teamName = name;
+        Team (String name, int luckyNumber)  {
+           this.teamName = name;
+           this.luckyNumber = luckyNumber;
         }
     }
     

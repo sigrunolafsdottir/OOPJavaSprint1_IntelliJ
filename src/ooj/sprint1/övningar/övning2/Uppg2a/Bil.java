@@ -2,7 +2,7 @@ package ooj.sprint1.övningar.övning2.Uppg2a;
 
 
 
-public class Bil extends Fordon {
+public class Bil extends Fordon  {
     private int motoreffekt;
     int antalHjul = 4;
 

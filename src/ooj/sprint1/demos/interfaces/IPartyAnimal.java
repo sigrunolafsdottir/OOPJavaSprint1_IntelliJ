@@ -1,8 +1,10 @@
 package ooj.sprint1.demos.interfaces;
 
-public interface IPartyAnimal {
+public abstract interface IPartyAnimal {
+
+    public String i = "hej";
     
-    public String getFavoriteSnack();
+    String getFavoriteSnack();
 
     default String getFavouriteDrink(){
         return "Beer";

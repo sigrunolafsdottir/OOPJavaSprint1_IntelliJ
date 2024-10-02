@@ -13,6 +13,7 @@ abstract class Fordon {
         this.vikt = vikt;
     }
 
+
     public int getHastighet() {
         return hastighet;
     }

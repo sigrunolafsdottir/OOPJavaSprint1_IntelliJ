@@ -17,7 +17,7 @@ public class Day{
     
     public static void main(String[] args){
         
-        Day day1 = new Day(Weekday.MONDAY);
+        Day day1 = new Day(Weekday.SATURDAY);
         Day day2 = new Day(Weekday.TUESDAY);
 
         System.out.println(day1.dayName);
